@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Formatação de Texto</title>
+    <style>
+        mark{
+            background-color: limegreen;
+        }
+    </style>
+</head>
+
+    <body>
+        <h1>Principais Formatações</h1>
+        <h2>Negrito / Destaque</h2>
+        <p>Nessa frase temos um <b>termo em negrito</b> usando a tab <b>B</b> (NAO SEMANTICA).</p>
+        <p>Nesta frase temos um <strong>termo em destaque</strong> usando a tag STRONG, (semantica)</p>
+        <h2>Italico / Enfase</h2>
+        <p>Nesta frase temos um <i>termo em italico</i> usando a tag <i>I</i> (NAO SEMANTICA)</p>
+        <p>Nesta frase temos um <em>termo em enfase</em>, usando a tag <em>EM</em> (SEMANTICA)</p>
+        <h2>Texto Marcado</h2>
+        <p>Podemos criar tambem um <mark style="background-color: limegreen;">texto marcado</mark> usando a tag MARK</p>
+        <p>Aqui nos temos outro <mark>texto marcado</mark>.</p>
+        <h2>Textos grandes e pequenos</h2>
+        <p>Estamos criando um <big>texto grande</big> e um <small>texto pequeno</small> neste paragrafo.</p>
+        <h2>Textos Deletados</h2>
+        <p>Podemos marcar um <del>texto como deletado</del>, para ele ser lido mas nao considerado.</p>
+        <h2>Textos Inseridos</h2>
+        <p>Podemos marcar um <ins>texto como inserido</ins> para dar enfase ao mesmo.</p>
+        <h2>Texto Sobrescrito</h2>
+        <p>Para inserir coisas do tipo x<sup>20</sup>+3</p>
+        <h2>Texto Subrescrito</h2>
+        <p>Para inserir coisas do tipo H<sub>2</sub>O</p>
+        <h1>Outras Formatações</h1>
+        <h2>Codigos Fonte</h2>
+        <p>O comando <code>document.getElementeById('teste')</code> é descrito em linguagem JavaScript.</p>
+        <pre>
+        <code>
+        num = int(input('Digite um numero:'))
+        if num % 2 == 0:
+            print(f'O numero {num} é par.')
+        else:
+            print(f'O numero {num} é impar'.)
+        print('Fim do programa.')
+        </code>
+        </pre>
+        <h2>Citações</h2>
+        <p>Como diria o pai de um amigo: <q>O Computador é um burro muito rapido.</q></p>
+        <h2>Citações completas</h2>
+        <p>Segundo um cara ai, no seu livro muito legal: </p>
+        <blockquote cite="facebook.com">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit voluptatum possimus, error laborum facilis animi! Non iusto esse est quo laboriosam rem perferendis ipsa, id nemo tempora ducimus quaerat quasi.
+        </blockquote>
+        <h2>Abreviações</h2>
+        <p>Estou estudando <abbr title="Linguagem de Marcação de Hipertexto">HTML5</abbr> e <abbr title="Cascading Style Sheets">CSS3</abbr> e to gostando</p>
+        <h2>Texto Invertido</h2>
+        <p><bdo dir="rtl"> Estou aprendendo coisas em HTML</bdo></p>
+    </body>
+
+</html>
