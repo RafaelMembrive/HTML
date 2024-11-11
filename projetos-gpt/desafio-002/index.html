@@ -4,9 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <title></title>
+    <title>Imagens Flexiveis</title>
 </head>
 <body>
-    
+    <h1>Imagem Flexivel</h1>
+    <picture>
+        <source media="(max-width: 572px)" srcset="img/foto-25%.png" type="image/png">
+        <source media="(max-width: 1074px)" srcset="img/foto-50%.png" type="image/png">
+        <img src="img/foto-100%.png" alt="">
+    </picture>
 </body>
 </html>
