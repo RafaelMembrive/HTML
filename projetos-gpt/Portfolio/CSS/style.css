@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+/* Estilo básico */
+body {
+    font-family: 'Roboto', sans-serif; /* Escolha a fonte no Google Fonts */
+    background-color: #FAF6E3; /* Substitua pela cor da sua paleta */
+    color: #000000; /* Substitua pela cor do texto da sua paleta */
+    margin: 0;
+    padding: 0;
+}
+
+/* Navegação */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    background-color: #2A3663; /* Substitua pela cor da sua paleta */
+    padding: 0.5rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #D8DBBD;
+    font-weight: bold;
+}
+
+main{
+    background-color: white;
+    box-shadow: 5px 5px 5px rgb(207, 207, 207);
+    margin: 5%;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+p{
+    text-align: justify;
+}
+
+h1{
+    text-align: center;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.projects article {
+    border: 1px solid #ccc; /* Substitua pela sua paleta */
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: #fff; /* Substitua pela sua paleta */
+}
+
+.projects h2 {
+    margin: 0 0 0.5rem;
+    color: #333; /* Substitua pela sua paleta */
+}
+
+/* Estilo do Formulário de Contato */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 2rem 0;
+    max-width: 600px;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+form button {
+    background-color: #333; /* Substitua pela sua paleta */
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+form button:hover {
+    background-color: #555; /* Substitua pela sua paleta */
+}
